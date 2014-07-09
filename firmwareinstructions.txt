@@ -1,0 +1,16 @@
+Links for installing GRBL on an Arduino UNO
+
+
+
+
+Download the hex file from this git repo
+https://github.com/grbl/grbl-builds/blob/master/builds/grbl_v0_8c_atmega328p_16mhz_9600_build20131207.hex
+
+Download XLoader from this link.  You will use it to upload the pre-compiled hex file downloaded above (the firmware)
+http://russemotto.com/xloader
+
+GRBL Wiki on GitHub describing how to compile it from source if you're super nerdy 
+https://github.com/grbl/grbl/wiki/Compiling-Grbl
+
+Instructions on using Grbl and how to modify it
+https://github.com/grbl/grbl/wiki
