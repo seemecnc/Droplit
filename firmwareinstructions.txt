@@ -14,3 +14,12 @@ https://github.com/grbl/grbl/wiki/Compiling-Grbl
 
 Instructions on using Grbl and how to modify it
 https://github.com/grbl/grbl/wiki
+
+To compile form source on windows download WinAVR
+Install it in the DEFAULT DIRECTORY!!! which is usually C:...  DON'T CHANGE IT
+in the default grbl folder, open a command prompt and run make clean then run make grbl.hex 
+and you should be all good to go!
+
+There is a file in the Firmware directory named configure.gcode that you can run to set the 
+grbl defaults if you do not want to compile/etc... your own.  You can send that with any software to
+the machine, or copy/past line be line the settings to configure the machine
