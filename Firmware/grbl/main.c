@@ -42,6 +42,7 @@
 #include "report.h"
 #include "settings.h"
 #include "serial.h"
+#include "defaults.h"
 
 // Declare system global variable structure
 system_t sys; 

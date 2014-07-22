@@ -113,9 +113,9 @@ void report_feedback_message(uint8_t message_code)
   printPgmString(PSTR("["));
   switch(message_code) {
     case MESSAGE_CRITICAL_EVENT:
-    printPgmString(PSTR("Reset to continue")); break;
+    printPgmString(PSTR("Send % to Reset and then $X to unlock")); break;
     case MESSAGE_ALARM_LOCK:
-    printPgmString(PSTR("'$H'|'$X' to unlock")); break;
+    printPgmString(PSTR("Send $X to unlock")); break;
     case MESSAGE_ALARM_UNLOCK:
     printPgmString(PSTR("Caution: Unlocked")); break;
     case MESSAGE_ENABLED:
