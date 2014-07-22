@@ -108,9 +108,9 @@
 // and this mask must contain all axes in the search.
 // NOTE: Later versions may have this installed in settings.
 #define HOMING_SEARCH_CYCLE_0 (1<<Z_AXIS)                // First move Z to clear workspace.
-#define HOMING_SEARCH_CYCLE_1 ((1<<X_AXIS)|(1<<Y_AXIS))  // Then move X,Y at the same time.
+//#define HOMING_SEARCH_CYCLE_1 ((1<<X_AXIS)|(1<<Y_AXIS))  // Then move X,Y at the same time.    removed x/y homing j.o.
 // #define HOMING_SEARCH_CYCLE_2                         // Uncomment and add axes mask to enable
-#define HOMING_LOCATE_CYCLE   ((1<<X_AXIS)|(1<<Y_AXIS)|(1<<Z_AXIS)) // Must contain ALL search axes
+#define HOMING_LOCATE_CYCLE   (1<<Z_AXIS) // Must contain ALL search axes
 
 // Number of homing cycles performed after when the machine initially jogs to limit switches.
 // This help in preventing overshoot and should improve repeatability. This value should be one or 
