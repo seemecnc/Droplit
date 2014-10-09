@@ -3,7 +3,12 @@ Droplit
 
 Droplit 3D Printer by SeeMeCNC
 
+This project is released on good will by us.  All designs are originally drawn by us, however many of our ideas
+may have obviously had influence from the RepRap community, hence the GPL license.  Feel free to use/modify these 
+files for any reason, just share attribution if you do, thanks!
 
+
+For the STL files, see http://repables.com/r/371/
 
 
 
